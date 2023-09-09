@@ -3,6 +3,7 @@ Live Demo-https://mern-e-commerce-front-end.vercel.app
 
 # Features :
 - Basic E-commerce Features- Product lists, Product Details, Cart, Checkout
+- Live Search Functionality
 - Add to cart,Delete From cart,Increase/Decrease Product Quantity
 - Secure Card Payments 
 - Admin Panel - Add/Edit/Delete Products
