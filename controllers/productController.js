@@ -109,8 +109,8 @@ exports.stripePay=async(req,res)=>{
             payment_method_types:["card"],
             line_items:lineItems,
             mode:"payment",
-            success_url:"http://localhost:5173/dashboard/user/success",
-            cancel_url:"http://localhost:5173/dashbord/user/cancel",
+            success_url:"https://mern-e-commerce-front-end.vercel.app/dashboard/user/success",
+            cancel_url:"https://mern-e-commerce-front-end.vercel.app/dashbord/user/cancel",
         })
         res.status(200).json({id:session.id})
         

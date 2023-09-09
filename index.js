@@ -4,10 +4,13 @@ require("dotenv").config()
 const cors=require("cors")
 const port = process.env.PORT
 const { connectDb } = require("./dbconnect/dbConnect")
-app.use(cors())
+app.use(cors({
+  origion:"https://mern-e-commerce-front-end.vercel.app",
+  credentials:true,
+}))
 
 const corsOptions = {
-    origin: 'http://localhost:5174',
+    origin: 'https://mern-e-commerce-front-end.vercel.app',
     credentials: true,
   };
 //routs
